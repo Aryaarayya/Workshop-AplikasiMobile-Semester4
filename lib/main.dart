@@ -28,9 +28,10 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 255, 0, 144)),
+        colorScheme: .fromSeed(seedColor: const Color.fromARGB(150, 0, 255, 38)),
       ),
       home: const MyHomePage(title: 'Demo Kelompok 4'),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
