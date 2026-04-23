@@ -61,6 +61,13 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            TextField(
+              decoration: InputDecoration(
+                labelText: 'Masukkan sesuatu',
+                hintText: 'Ketik Disini',
+                border: OutlineInputBorder(),
+              ),
+            ),
           ],
         ),
       ),
